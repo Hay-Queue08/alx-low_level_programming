@@ -5,7 +5,7 @@
  * str_concat - point to a newly allocated space in memory
  * @s1: input one to concat
  * @s2: input two to concat
- * Retirn: voncat of s1 amd s2
+ * Return: concat of s1 amd s2
  */
 char *str_concat(char *s1, char *s2)
 {
