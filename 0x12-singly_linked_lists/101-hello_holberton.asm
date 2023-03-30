@@ -6,14 +6,14 @@ global main
 main:
 push rbp
 
-mov rdi, fmt
-mov rsi, msg
-mov rax, 0
+mov rdi,fmt
+mov rsi,msg
+mov rax,0
 call printf
 
-poprbp
+pop rbp
 
-mov rax, 0
+mov rax,0
 ret
 
 section .data
